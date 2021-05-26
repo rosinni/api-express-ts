@@ -11,7 +11,7 @@ import { safe } from './utils';
 import { createUser } from './actions';
 
 const router = Router();
-
+//prueba
 // signup route, creates a new user in the DB
 router.post('/user', safe(createUser));
 
