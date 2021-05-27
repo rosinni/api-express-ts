@@ -74,7 +74,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 exports.__esModule = true;
 exports.Exception = exports.safe = exports.renderIndex = exports.url = void 0;
-var path = __importStar(require("path")); // node.js internal module usefull to get file paths
+var path = __importStar(require("path")); // node.js internal module usefull to get file paths express-list-endpoints'
 var express_list_endpoints_1 = __importDefault(require("express-list-endpoints")); //just a function that retrieves all the API routes
 var ejs_1 = __importDefault(require("ejs")); //template engine
 // We need to know what will be the API host
