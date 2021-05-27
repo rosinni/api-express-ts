@@ -8,7 +8,7 @@ import { url, renderIndex } from "./utils"
 import privateRoutes from './private_routes'
 import publicRoutes from './public_routes'
 
-const PORT:number = 3001 || process.env.PORT;
+const PORT:any = process.env.PORT || 3001;
 const PUBLIC_URL = url(PORT)
 const app = express();
 
