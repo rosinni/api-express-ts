@@ -1,4 +1,4 @@
-import * as path from 'path' // node.js internal module usefull to get file paths
+import * as path from 'path' // node.js internal module usefull to get file paths express-list-endpoints'
 import listEndpoints from 'express-list-endpoints' //just a function that retrieves all the API routes
 import ejs from "ejs" //template engine
 
